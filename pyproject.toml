@@ -1,0 +1,32 @@
+[project]
+name = "notion-udemy-sync"
+version = "0.1.0"
+description = "A script to sync Udemy course content with a Notion database"
+authors = [
+    {name = "Hayes", email = "92khsang@gmail.com"},
+]
+license="MIT"
+requires-python = ">=3.10,<4.0"
+readme = "README.md"
+keywords = ["notion", "udemy", "sync", "automation"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+dependencies = [
+    "requests>=2.31.0,<3.0.0",
+    "python-dotenv>=1.0.0,<2.0.0",
+    "pydantic>=2.5.0,<3.0.0",
+    "pydantic-settings>= 2.7.0,<3.0.0",
+    "websockets>=14.0,<15.0.0",
+]
+
+[tool.poetry]
+package-mode = false
