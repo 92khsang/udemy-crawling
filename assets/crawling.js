@@ -296,8 +296,8 @@
 
                 await this.wsClient.sendWithResponse({
                     action: "save_transcript",
-                    section: sectionTitle,
-                    title: lectureTitle,
+                    raw_section: sectionTitle,
+                    raw_lecture: lectureTitle,
                     transcripts: transcriptTexts
                 });
 

@@ -6,7 +6,7 @@ authors = [
     {name = "Hayes", email = "92khsang@gmail.com"},
 ]
 license="MIT"
-requires-python = ">=3.10,<4.0"
+requires-python = ">=3.10,<3.14"
 readme = "README.md"
 keywords = ["notion", "udemy", "sync", "automation"]
 classifiers = [
@@ -21,11 +21,8 @@ classifiers = [
 ]
 
 dependencies = [
-    "requests>=2.31.0,<3.0.0",
-    "python-dotenv>=1.0.0,<2.0.0",
-    "pydantic>=2.5.0,<3.0.0",
-    "pydantic-settings>= 2.7.0,<3.0.0",
     "websockets>=14.0,<15.0.0",
+    "pynotion @ git+https://github.com/92khsang/pynotion.git@4fb8524"
 ]
 
 [tool.poetry]
